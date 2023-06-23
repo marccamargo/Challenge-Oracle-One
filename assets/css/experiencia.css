@@ -1,0 +1,130 @@
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    
+}
+.experiencia__titulo{
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.experiencia__caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.experiencia__imagem-decodificador{
+    height: 144px;
+    width: 296px;
+    background-image: url(../images/decodificador.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+.experiencia__imagem-ceep{
+    padding-top: 15%;
+    height: 144px;
+    width: 296px;
+    background-image: url(../images/ceep.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.experiencia__descricao{
+    width: 296px;
+}
+.experiencia__nome{
+    color: var(--cor-da-fonte);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding-top: 0.5rem;
+
+}
+.experiencia__projeto{
+    color: var(--cor-da-fonte);
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.experiencia__botao--repositório{
+    color: var(--cor-azul);
+    border-color: var(--cor-azul);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding:  0.7rem 1rem;
+    font-size: 0.8rem;
+    border-width: 1px;
+    
+}
+.experiencia__botao--demo{
+    background-color: var(--cor-azul);
+    color: var(--cor-de-fundo);
+    border: none;
+    font-size: 0.8rem;
+    padding: 0.7rem 1rem;
+}
+@media screen and (min-width:768px)  {
+
+    .experiencia__imagem-decodificador{
+        width: 704px;
+        height: 600px;
+        background-image: url(../images/decodificador.png);
+        
+    }
+    .experiencia__nome{
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    .experiencia__imagem-ceep{
+        width: 704px;
+        height: 450px;
+        background-image: url(../images/ceep.png);
+    }
+    .experiencia__descricao{
+        width: 704px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .experiencia__titulo{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .experiencia__caixa{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .jogo_da_velha{
+        flex-direction: row-reverse;
+    }
+    .experiencia__imagem-decodificador{
+        width: 800px;
+        height: 500px;
+        background-image: url(../images/decodificador.png);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        
+    }
+    .experiencia__imagem-ceep{
+        width: 800px;
+        height: 500px;
+        background-image: url(../images/ceep.png);
+        
+    }
+    .experiencia__descricao{
+        width: 360px;
+        height: 52px;
+        padding: 1.5rem;
+    }
+    .experiencia__botao--demo,
+    .experiencia__botao--repositório{
+        width: 105px;
+        height: 51px;
+    }
+    
+}
